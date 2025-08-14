@@ -1,6 +1,5 @@
 # Author: Harmun Sandhu
 # GitHub username: Harmun1
-# Date: 06/09/2024
 # Description: Class that represents a game of atomic chess, where the goal is to destroy the opponent's king.
 
 class ChessVar:
@@ -129,3 +128,4 @@ class ChessVar:
                 print(self.__board[list][numbers], end=' ')
             print(8 - list)
         print('  a b c d e f g h')
+
